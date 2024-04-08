@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "apf-process-files-fastapi"
+name = "apf-dependency-injection-fastapi"
 version = "0.1.0"
 description = ""
-authors = ["miraclemenikelechi <miracle.emenike7@gmail.com>"]
+authors = ["miraclemenikelechi"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
