@@ -18,7 +18,7 @@ async def create_new_user(user, session):
 
 
 async def get_all_users(session):
-    
+
     all_users = session.exec(select(UserInDB)).all()
 
     return all_users

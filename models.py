@@ -1,4 +1,4 @@
-from sqlmodel import Field, SQLModel, select
+from sqlmodel import Field, Session, SQLModel, select
 
 
 class User(SQLModel):
@@ -9,13 +9,3 @@ class User(SQLModel):
 
 class UserInDB(User, table=True):
     id: int | None = Field(default=None, primary_key=True)
-
-
-# class Car(SQLModel):
-#     name: str
-#     color: str
-#     year: int
-
-
-# class DB_Car(Car, table=True):
-#     id: int | None = Field(default=None, primary_key=True)

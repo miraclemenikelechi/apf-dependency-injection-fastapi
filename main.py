@@ -19,4 +19,5 @@ async def root():
         status_code=status.HTTP_302_FOUND,
     )
 
+
 server.include_router(user)
